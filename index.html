@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!--  -->
+  <link href="css/style.css" rel="stylesheet" />
+  <title>TodoListApp</title>
+</head>
+
+<body>
+
+  <div class="container mt-4">
+    <div class="row">
+
+      <h1 class="fw-bold text-center text-light fst-italic" style="text-shadow: 3px 3px 1px #ccc;"><span
+          class="text-success">T</span>odo
+        <span class="text-success">L</span>ist <span class="text-success">A</span>pp
+      </h1>
+
+      <div class="col mt-4">
+        <section>
+
+          <div class="input-group">
+            <i class="input-group-text bi bi-clipboard2-plus fs-2 text-primary bg-transparent border-primary"></i>
+            <div class="form-floating">
+              <input type="text" placeholder="Add New Todo" id="inputElemTodo"
+                class="form-control text-light bg-transparent border-primary">
+              <label for="inputElemTodo" class="text-light fst-italic">Add New Todo</label>
+            </div>
+          </div>
+
+          <div class="btn-group mt-3">
+            <div id="addTodoBtn" class="btn btn-success fst-italic">Add To List</div>
+            <div id="clearTodoBtn" class="btn btn-danger fst-italic">Clear Todo List</div>
+          </div>
+
+        </section>
+
+        <small id="alert"></small>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col">
+        <h3 class="fw-bolder h4 text-light text-center fst-italic" style="text-shadow: 2px 2px 1px #ccc;"><span
+            class="text-success">T</span>odo <span class="text-success">L</span>ist</h3>
+        <div id="mainTodos" class="mt-3"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
