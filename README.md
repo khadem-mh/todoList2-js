@@ -3,14 +3,14 @@
 # <p align="center"> Hi there 👋 I'm Mohammad Hossein 👨‍💻 </p>
  <p align="center"> React Js expert and FrontEnd Developer from Iran.</p>
 
-## Descripton Project
-- Create a beautiful and very useful form on login and register pages and ... React JS. 
+## Descripton Mini-Project
+- A beautifully designed TodoListApp with Bootstrap and coded with JS 
 
-- Fully optimized and cleanly programmed, and the principle of being a base component in this project is respected. 
+- User input data is stored in the browser's local storage
 
-- This way, you no longer need to validate the server-side validation, which means that you are following the DRY (Don Repeat Yourself) rule.
+- Fully responsive in any dimension.
 
-- This form is very flexible in terms of customization.
+- Includes all the functionality of a todo list to add a new task، complete a task، delete a task، or delete the entire task.
 
 >### Languages
 >> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=F77F1A&random=false&width=55&height=25&lines=Html5)
@@ -25,7 +25,7 @@
 >### DataBase
 >> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=F77F1A&random=false&width=200&height=25&lines=LocalStorage+Browser)
 
-## View of the project
+## View of the Mini-Project
 
 <img src="./Video/todolist.gif" width="750px"/>
 
