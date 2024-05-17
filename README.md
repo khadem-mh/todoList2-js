@@ -29,7 +29,7 @@
 
 <img src="./Video/todolist.gif" width="750px"/>
 
-check this [URL](https://khadem-mh.github.io/todoListApp/) for visit this page
+check this [URL](https://khadem-mh.github.io/todoList2-js/) for visit this page
 
 ___
 >### Social Network
